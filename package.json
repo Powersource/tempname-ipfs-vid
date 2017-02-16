@@ -4,6 +4,7 @@
   "description": "A completely decentralized alternative to e.g. YouTube and torrent sites, inspired by OpenBazaar",
   "main": "index.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Powersource/tempname-ipfs-vid/issues"
   },
-  "homepage": "https://github.com/Powersource/tempname-ipfs-vid#readme"
+  "homepage": "https://github.com/Powersource/tempname-ipfs-vid#readme",
+  "devDependencies": {
+    "electron": "^1.4.15"
+  }
 }
