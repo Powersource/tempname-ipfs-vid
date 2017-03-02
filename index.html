@@ -3,11 +3,14 @@
   <head>
     <meta charset="UTF-8">
     <title>Hello World!</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="page.js"></script>
   </head>
   <body>
     <h1>Hello World!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+    <p id="text">This text should be replaced</p>
   </body>
 </html>
