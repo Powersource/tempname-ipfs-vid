@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <title>Hello World!</title>
     <script src="page.js"></script>
+    <link href="node_modules/video.js/dist/video-js.css" rel="stylesheet">
   </head>
   <body>
     <h1>Hello World!</h1>
     We are using node <script>document.write(process.versions.node)</script>,
     Chrome <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+
     <p id="text">This text should be replaced</p>
+
+    <video id="vid" class="video-js" controls>
+      <source src="demo-videos/sintel.mp4" type="video/mp4">
+    </video>
   </body>
 </html>
